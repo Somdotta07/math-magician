@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Calculator extends Component {
+class Calculator extends React.Component {
   render() {
     return (
       <div>

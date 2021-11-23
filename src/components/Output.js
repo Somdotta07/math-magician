@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Output extends Component {
+class Output extends React.Component {
   render() {
     const { result } = this.props;
       return (
-          <div className='result'>
-            <p>
+        <div className='result'>
+          <p>
               {result}
                 0
-            </p>
-          </div>
+          </p>
+        </div>
       );
   }
 }
