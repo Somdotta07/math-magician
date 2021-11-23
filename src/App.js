@@ -8,16 +8,16 @@ class App extends Component {
     super();
 
     this.state = {
-    result: '',
+      result: '',
     };
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <div>
-        <div className='calculator-body'>
-            <Output result={this.state.result}/>
-            <Calculator />
+        <div className="calculator-body">
+        <Output result = { this.state.result }/>
+        <Calculator/>
         </div>
       </div>
     );

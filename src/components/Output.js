@@ -1,14 +1,17 @@
-import React, { Component } from 'react'; 
+import React, { Component } from 'react';
 
- class Output extends Component {
-    render() {
-        let {result} = this.props;
-        return(
-            <div className='result'>
-            <p>{result}0</p>
-        </div>
-        );
-    }
+class Output extends Component {
+  render() {
+    const { result } = this.props;
+      return (
+          <div className='result'>
+            <p>
+              {result}
+                0
+            </p>
+          </div>
+      );
+  }
 }
 
 export default Output;
