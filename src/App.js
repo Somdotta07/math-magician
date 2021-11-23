@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Calculator from './components/Calculator';
-// import Output from './components/Output';
 
 class App extends React.Component {
   constructor(props) {
@@ -14,7 +13,7 @@ class App extends React.Component {
       <div className="calculator-body">
         <Calculator />        
       </div>
-    );
+      );
   }
 }
 
