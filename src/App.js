@@ -7,7 +7,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {
+    this.state= {
       result: '',
     };
   }
@@ -16,8 +16,8 @@ class App extends React.Component {
     return (
       <div>
         <div className="calculator-body">
-        <Output result = { this.state.result }/>
-        <Calculator/>
+        <Output result={this.state.result} />
+          <Calculator />
         </div>
       </div>
     );
