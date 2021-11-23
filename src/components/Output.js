@@ -10,8 +10,8 @@ class Output extends React.Component {
     return (
         <div className="result">
           <p>
-              {result}
-                0
+            {result}
+             0
           </p>
         </div>
       );

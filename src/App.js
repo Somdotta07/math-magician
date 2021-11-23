@@ -6,17 +6,18 @@ import Output from './components/Output';
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {};
 
-    this.state= {
-      result: '',
-    };
+    // this.state = {
+    //   result: '',
+    // };
   }
 
   render() {
     return (
       <div>
         <div className="calculator-body">
-        <Output result={this.state.result} />
+          <Output />
           <Calculator />
         </div>
       </div>
