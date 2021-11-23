@@ -5,13 +5,14 @@ class Calculator extends React.Component {
     super(props);
     this.state = {};
   }
+  
   render() {
     return (
       <div>
         <button type="button">AC</button>
         <button type="button">+/-</button>
         <button type="button">%</button>
-        <button  type="button" className="operand-color">÷</button>
+        <button type="button" className="operand-color">÷</button>
         <button type="button">7</button>
         <button type="button">8</button>
         <button type="button">9</button>
