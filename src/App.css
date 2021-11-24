@@ -6,7 +6,7 @@
 
 .result p {
   font-size: 20px;
-  margin-left: 350px;
+  margin-left: 310px;
   margin-top: 50px;
   padding: 30px;
   font-weight: 600;
@@ -16,10 +16,6 @@
 .calculator-body {
   max-width: 400px;
   margin: auto;
-}
-
-.button {
-  display: block;
 }
 
 button {
