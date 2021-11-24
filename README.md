@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Link]
+[Link](https://distracted-feynman-9db7eb.netlify.app/)
 
 
 ## Getting Started
