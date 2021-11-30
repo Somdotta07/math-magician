@@ -12,11 +12,11 @@ function Nav() {
         </Link>
         <div className="line" />
         <Link style={underLine} to="/calculate">
-            <li>Calculator</li>
-          </Link>
+          <li>Calculator</li>
+        </Link>
         <div className="line" />
         <Link style={underLine} to="/quote">
-            <li>Quotes</li>
+          <li>Quotes</li>
         </Link>
       </ul>
     </nav>
