@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap');
+
 .result {
   height: 60px;
   background-color: #8b8989a6;
   width: 100%;
+}
+
+p {
+  margin: 50px;
+  display: flex;
+  align-content: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .result p {
@@ -72,15 +80,8 @@ li {
 
 h1,
 h2,
-h3{ 
+h3 {
   margin: 20px;
-  font-family: 'Poppins', sans-serif;
-}
-
-p {
-  margin: 50px;
-  display: flex;
-  align-content: center;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -92,12 +93,12 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
-.cal-body{
+.cal-body {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
 }
 
-.cal-bodyh2{
+.cal-bodyh2 {
   display: flex;
   align-content: center;
   margin-top: 20px;
