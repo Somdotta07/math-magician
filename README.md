@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Link](https://heuristic-swirles-943806.netlify.app/home)
+[Link](https://heuristic-swirles-943806.netlify.app/)
 
 
 ## Getting Started
