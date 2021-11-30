@@ -10,13 +10,13 @@ function Nav() {
         <Link style={underLine} to="/home">
           <li>Home</li>
         </Link>
-        <div className="line"/>
-          <Link style={underLine} to="/calculate">
-          <li>Calculator</li>
-        </Link>
-        <div className="line"/>
+        <div className="line" />
+        <Link style={underLine} to="/calculate">
+            <li>Calculator</li>
+          </Link>
+        <div className="line" />
         <Link style={underLine} to="/quote">
-          <li>Quotes</li>
+            <li>Quotes</li>
         </Link>
       </ul>
     </nav>
