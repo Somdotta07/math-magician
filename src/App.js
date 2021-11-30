@@ -14,11 +14,11 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav/>
+        <Nav />
         <Switch>
-          <Route path="/home" exact component={Home}/>
-          <Route path="/Calculate" component={Calculate}/>
-          <Route path="/Quote" component={Quote}/>
+          <Route path="/home" exact component={Home} />
+          <Route path="/Calculate" component={Calculate} />
+          <Route path="/Quote" component={Quote} />
         </Switch>
       </div>
     </Router>
@@ -26,4 +26,3 @@ function App() {
 }
 
 export default App;
-
