@@ -3,18 +3,19 @@ import './App.css';
 import {Link} from 'react-router-dom';
 
 function Nav() {
+    const underLine = {color: 'rgb(0, 132, 255)'}
     return(
         <nav>
            <ul className= "nav-link">
-              <Link to="/home">
+              <Link style={underLine} to="/home">
                 <li>Home</li>
               </Link>
               <div className="line"></div>
-              <Link to="/calculate">
+              <Link style={underLine} to="/calculate">
                 <li>Calculator</li>
               </Link>
               <div className="line"></div>
-              <Link to="/quote">
+              <Link style={underLine} to="/quote">
                  <li>Quotes</li>
               </Link>
             </ul>
