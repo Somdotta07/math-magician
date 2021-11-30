@@ -4,7 +4,9 @@
  - Read a random math-related quote.
 
 
-![screenshot](https://user-images.githubusercontent.com/84907743/143049516-20b5ade1-7a77-49c4-95db-ae9c655c306a.png)
+![image](https://user-images.githubusercontent.com/84907743/144075665-184ba128-d322-41bd-99cc-a12ad2d691be.png)
+![image](https://user-images.githubusercontent.com/84907743/144075896-1ac8d774-c51e-4a05-a026-6ca31ff1ee9e.png)
+![image](https://user-images.githubusercontent.com/84907743/144076119-e483b588-fc3b-41d4-86a1-67600fda9cef.png)
 
 
 ## Built With
@@ -13,7 +15,7 @@
 
 ## Live Demo
 
-[Link](https://distracted-feynman-9db7eb.netlify.app/)
+[Link](https://heuristic-swirles-943806.netlify.app/)
 
 
 ## Getting Started
