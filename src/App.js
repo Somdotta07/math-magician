@@ -1,20 +1,30 @@
 import React from 'react';
 import './App.css';
-import Calculator from './components/Calculator';
+import Nav from './Nav';
+import Home from './Home';
+import Quote from './Quotes';
+import Calculate from './CalculatorPg';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
 
-  render() {
-    return (
-      <div className="calculator-body">
-        <Calculator />
-      </div>
-    );
-  }
+function App(){
+  return (
+  <Router>
+    <div>
+      <Nav/>
+      <Switch>
+      <Route path="/home" exact component={Home}/>
+      <Route path="/Calculate" component={Calculate}/>
+      <Route path="/Quote" component={Quote}/>
+      </Switch>
+    </div>
+  </Router>
+  );
 }
 
+ 
 export default App;

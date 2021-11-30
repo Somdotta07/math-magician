@@ -14,8 +14,15 @@
 }
 
 .calculator-body {
-  max-width: 400px;
-  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 95%;
+  height: 95%;
+  margin-top: 20px;
+  margin-left: 250px;
+  float: right;
+  border: 2px solid black;
 }
 
 button {
@@ -34,4 +41,55 @@ button {
 
 .operand-color {
   background-color: #ff8b3d;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.nav-link {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.line {
+  border: 1px solid black;
+}
+
+li {
+  margin: 5px;
+  color: rgb(0, 132, 255);
+}
+
+h1,
+h2,
+h3{ 
+  margin: 20px;
+}
+
+p {
+  margin: 50px;
+  display: flex;
+  align-content: center;
+}
+
+.quotes-p {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cal-body{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.cal-bodyh2{
+  display: flex;
+  align-content: center;
+  margin-top: 20px;
 }
