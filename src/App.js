@@ -6,9 +6,9 @@ import {
   Route,
 } from 'react-router-dom';
 import Nav from './Nav';
-import Home from './Home';
-import Quote from './Quotes';
-import Calculate from './CalculatorPg';
+import Home from './components/Home';
+import Quote from './components/Quotes';
+import Calculate from './components/CalculatorPg';
 
 function App() {
   return (
