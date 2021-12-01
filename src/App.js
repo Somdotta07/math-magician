@@ -19,6 +19,9 @@ function App() {
           <Route path="/home" exact component={Home} />
           <Route path="/Calculate" component={Calculate} />
           <Route path="/Quote" component={Quote} />
+          <Route path="*">
+          <Home />
+        </Route>
         </Switch>
       </div>
     </Router>
