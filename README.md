@@ -55,7 +55,7 @@ npm start
 
 - [Github](https://github.com/Somdotta07)
 - [Twitter](https://twitter.com/somdotta_sarkar)
-- [LinkedIn](https://www.linkedin.com/in/somdotta-sarkar-8849b419/)
+- [LinkedIn](www.linkedin.com/in/somdottasarkar)
 
 
 
